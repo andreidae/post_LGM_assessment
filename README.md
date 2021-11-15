@@ -1,12 +1,13 @@
 ## Supplementary data for
 # Strong and lasting impacts of past global warming on baleen whales and their prey
 
-### Andrea A. Cabrera, Elena Schall, Martine Bérubé, Pia Anderwald, Lutz Bachmann, Simon Berrow, Peter B. Best, Phillip J. Clapham, Haydée A. Cunha, Luciano Dalla Rosa, Carolina Dias, Kenneth P. Findlay, Tore Haug, Mads Peter Heide-Jørgensen, Rus Hoelzel, Kit M. Kovacs, Scott Landry, Finn Larsen, Xênia Moreira Lopes, Christian Lydersen, David K. Mattila, Tom Oosting, Richard M. Pace III, Chiara Papetti, Angeliki Paspati, Luis A. Pastene, Rui Prieto, Christian Ramp, Jooke Robbins, Richard Sears, Eduardo R. Secchi, Mónica A. Silva, Malene Simon, Gísli Víkingsson, Øystein Wiig, Nils Øien and Per J. Palsbøll
+#### Andrea A. Cabrera, Elena Schall, Martine Bérubé, Pia Anderwald, Lutz Bachmann, Simon Berrow, Peter B. Best, Phillip J. Clapham, Haydée A. Cunha, Luciano Dalla Rosa, Carolina Dias, Kenneth P. Findlay, Tore Haug, Mads Peter Heide-Jørgensen, Rus Hoelzel, Kit M. Kovacs, Scott Landry, Finn Larsen, Xênia Moreira Lopes, Christian Lydersen, David K. Mattila, Tom Oosting, Richard M. Pace III, Chiara Papetti, Angeliki Paspati, Luis A. Pastene, Rui Prieto, Christian Ramp, Jooke Robbins, Richard Sears, Eduardo R. Secchi, Mónica A. Silva, Malene Simon, Gísli Víkingsson, Øystein Wiig, Nils Øien and Per J. Palsbøll
 
 
 Folders
 A. Samples_MtDNA_sequences_information
 	This folder contains a .xlm file with the sample ID, mitochondrial DNA sequence, ocean basin and source for each species included included in this study
+	
 B. Migrate-BaleenWhale_Input
 	For each baleen whale species, the input file for MIGRATE-N and the paramter file of one of the replicates is presented
 	1. Input file
@@ -16,7 +17,6 @@ B. Migrate-BaleenWhale_Input
 	Line 3. Number of sequences for population 1
 	Line 4-?. MtDNA sequences per sample individual
 	Line ?. Number of sequences for population 2
-
 	2. Parfile
 	Parameters employed to for the specific MCMC estimate in MIGRATE-N. The parameter file of one of the replicates is included. 
 	The other replicates varied only in the nubmer of random seed.
