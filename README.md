@@ -24,6 +24,7 @@ Supplementary data for
 	Line ?. Number of sequences for population 2
 	
 	2. Parfile
+	
 	Parameters employed to for the specific MCMC estimate in MIGRATE-N. The parameter file of one of the replicates is included. 
 	The other replicates varied only in the nubmer of random seed.
 
