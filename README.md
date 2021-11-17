@@ -16,7 +16,8 @@ For each baleen whale species, the input file for MIGRATE-N and the paramter fil
 	
 #### 1. Input file
 	
-* Contain information *
+Contain information
+
 Line 1. Total number of populations and loci
 Line 2. Number of base pairs in the mtDNA sequences
 Line 3. Number of sequences for population 1
