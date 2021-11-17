@@ -8,7 +8,7 @@ Supplementary data for
 ## Folders
 ### - Samples_MtDNA_sequences_information
 	
-	This folder contains a .xlm file with the sample ID, mitochondrial DNA sequence, ocean basin and source for each species included in this study
+This folder contains a .xlm file with the sample ID, mitochondrial DNA sequence, ocean basin and source for each species included in this study
 	
 ### - Migrate-BaleenWhale_Input
 	
