@@ -12,21 +12,21 @@ This folder contains a .xlm file with the sample ID, mitochondrial DNA sequence,
 	
 ### - Migrate-BaleenWhale_Input
 	
-	For each baleen whale species, the input file for MIGRATE-N and the paramter file of one of the replicates is presented
+For each baleen whale species, the input file for MIGRATE-N and the paramter file of one of the replicates is presented
 	
-	1. Input file
+#### 1. Input file
 	
-	Contain information
-	Line 1. Total number of populations and loci
-	Line 2. Number of base pairs in the mtDNA sequences
-	Line 3. Number of sequences for population 1
-	Line 4-?. MtDNA sequences per sample individual
-	Line ?. Number of sequences for population 2
+* Contain information *
+Line 1. Total number of populations and loci
+Line 2. Number of base pairs in the mtDNA sequences
+Line 3. Number of sequences for population 1
+Line 4-?. MtDNA sequences per sample individual
+Line ?. Number of sequences for population 2
 	
-	2. Parfile
+#### 2. Parfile
 	
-	Parameters employed to for the specific MCMC estimate in MIGRATE-N. The parameter file of one of the replicates is included. 
-	The other replicates varied only in the nubmer of random seed.
+Parameters employed to for the specific MCMC estimate in MIGRATE-N. The parameter file of one of the replicates is included. 
+The other replicates varied only in the nubmer of random seed.
 
 ### - Migrate-Prey_Input
 
