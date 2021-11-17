@@ -34,23 +34,23 @@ The other replicates varied only in the nubmer of random seed.
 
 ### - Migrate-Prey_Input
 
-	Same information as Folder A but for the prey species 
+Same information as Folder Migrate-BaleenWhale_Input but for the prey species 
 	
 ### - Migrate-ComparisonMtgenes_Input
 
-	Same information as Folder A but for different mtDNA genes and species, employed for the comparison of temporal trends of different mtDNA genes.
+Same information as Folder Migrate-BaleenWhale_Input but for different mtDNA genes and species, employed for the comparison of temporal trends of different mtDNA genes.
 
 ### - Stariway-BaleenWhales_Input
 
-	For each of the baleen whale species, the files named "blueprint" are used as both the input and the configuration file for running 
-	the "STAIRWAY PLOT v2". The files employed for the plot with minimum coverage of 2x and 10x are included. 
-	It contains the total number of sites, including the monomorphic sites (line 5) and the folded site frequency spectrum (line 7).
-	Additional configuration information are also included, like the used mutation rate (line 16) and generation time (line 17).
+For each of the baleen whale species, the files named "blueprint" are used as both the input and the configuration file for running the "STAIRWAY PLOT v2". The files employed for the plot with minimum coverage of 2x and 10x are included. 
+
+It contains the total number of sites, including the monomorphic sites (line 5) and the folded site frequency spectrum (line 7).
+Additional configuration information are also included, like the used mutation rate (line 16) and generation time (line 17).
 
 ### - Correlation
 
-	The cvs files with the data points employed to estimate the pearson correlation every 1,000, 2,000, and 5,000 years.
+The cvs files with the data points employed to estimate the pearson correlation every 1,000, 2,000, and 5,000 years.
 
 ### - Migrate-BaleenWhale_Output
 
-	Output parameters and skyline data from MIGRATE-N for each baleen whale species
+Output parameters and skyline data from MIGRATE-N for each baleen whale species
