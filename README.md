@@ -6,16 +6,19 @@ Supplementary data for
 
 
 ## Folders
-### - Samples_MtDNA_sequences_information
+### - 1.Samples_MtDNA_sequences_information
 	
 An excel file (.xlsx) with the sample ID, mitochondrial DNA sequence, ocean basin and source for each sample and species included in this study
 	
-### - Migrate-BaleenWhale_Input
+### - 2.Migrate-BaleenWhale_InputOutput
 	
-For each baleen whale species, the input file for MIGRATE-N and the paramter file of one of the replicates is presented
+For each baleen whale species, the input file for MIGRATE-N and the paramter file of the three replicates are presented
 	
-#### 1. Input file
-	
+#### Migrate-BaleenWhale_Input 
+
+##### 1. Input file
+For each species, the input file (.txt) contains:
+
 Line 1. Total number of populations and loci
 
 Line 2. Number of base pairs in the mtDNA sequences
@@ -27,18 +30,46 @@ Line 4-?. MtDNA sequences per sample individual
 Line ?. Number of sequences for population 2
 	
 	
-#### 2. Parfile
-	
-Parameters employed to for the specific MCMC estimate in MIGRATE-N. The parameter file of one of the replicates is included. 
-The other replicates varied only in the nubmer of random seed.
+##### 2. Parfile
+Parameters employed to for the specific MCMC estimate in MIGRATE-N are included
+in the file "parmfile_replicate(A/B/C)". A/B/C represent the three replicates varied only by the random seed .
 
-### - Migrate-Prey_Input
+#### - Migrate-BaleenWhale_Output
 
-Same information as Folder Migrate-BaleenWhale_Input but for the prey species 
+Output parameters and skyline output data from MIGRATE-N for each baleen whale species
+
+
+### - Migrate-Prey_InputOutput
+
+Same information as Folder Migrate-BaleenWhale_InputOutput but for the prey species 
 	
+### - Correlation
+
+Species_Combined_CSV: This folder includes the skyline output data of the three replicates of whales and prey combined
+including the pool mean and pool standard deviation. 
+These files were the raw data for the correlation analysis
+
+Temperture_CSV: This folder includes the raw Actic and Antarctic temperature data used for the correlation analysis
+
+Analysis: This folder contains the input files and scripts to run the pearson correlation estimates every 1,000, 2,000, and 5,000 years. 
+
+- Scripts_input correlation
+
+The folder includes the scripts to generate the input files with the pool mean and standard deviatiation in years 
+("ExportYear&Ne_fromCombinedCSV_to_CorrelationLR*.R"),
+and the scripts to estimate a standard time interval across variables
+("Script_GenerateFiles_Approx_*.R")
+
+- Final_results correlations
+
+The folder includes the final input files for the correlation estimate and the script to plot and estimate pearson correlation every 1,000, 2,000, and 5,000 years.
+
+
 ### - Migrate-ComparisonMtgenes_Input
 
-Same information as Folder Migrate-BaleenWhale_Input but for different mtDNA genes and species, employed for the comparison of temporal trends of different mtDNA genes.
+Same information as Folder Migrate-BaleenWhale_Input but for different mtDNA genes and species 
+employed for the comparison of temporal trends of different mtDNA genes.
+
 
 ### - Stariway-BaleenWhales_Input
 
@@ -47,10 +78,4 @@ For each of the baleen whale species, the files named "blueprint" are used as bo
 It contains the total number of sites, including the monomorphic sites (line 5) and the folded site frequency spectrum (line 7).
 Additional configuration information are also included, like the used mutation rate (line 16) and generation time (line 17).
 
-### - Correlation
 
-The cvs files with the data points employed to estimate the pearson correlation every 1,000, 2,000, and 5,000 years.
-
-### - Migrate-BaleenWhale_Output
-
-Output parameters and skyline data from MIGRATE-N for each baleen whale species
