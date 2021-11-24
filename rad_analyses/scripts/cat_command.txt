@@ -1,7 +1,0 @@
-while read -r line
-do
-	cat library1_${line}.1.fq.gz  library2_${line}.1.fq.gz > combined_${line}.1.fq.gz
-	cat library1_${line}.2.fq.gz  library2_${line}.2.fq.gz > combined_${line}.2.fq.gz
-	cat library1_${line}.rem.1.fq.gz  library2_${line}.rem.1.fq.gz > combined_${line}.rem.1.fq.gz
-	cat library1_${line}.rem.2.fq.gz  library12_${line}.rem.2.fq.gz > combined_${line}.rem.2.fq.gz
-done < IDs_file
