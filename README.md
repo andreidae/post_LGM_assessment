@@ -39,11 +39,11 @@ in the file "parmfile_replicate(A/B/C)". A/B/C represent the three replicates va
 Output parameters and skyline output data from MIGRATE-N for each baleen whale species
 
 
-### - Migrate-Prey_InputOutput
+### - 3.Migrate-Prey_InputOutput
 
 Same information as Folder Migrate-BaleenWhale_InputOutput but for the prey species 
 	
-### - Correlation
+### - 4.Correlation
 
 Species_Combined_CSV: This folder includes the skyline output data of the three replicates of whales and prey combined
 including the pool mean and pool standard deviation. 
@@ -65,13 +65,13 @@ and the scripts to estimate a standard time interval across variables
 The folder includes the final input files for the correlation estimate and the script to plot and estimate pearson correlation every 1,000, 2,000, and 5,000 years.
 
 
-### - Migrate-ComparisonMtgenes_Input
+### - 5.Migrate-ComparisonMtgenes_Input
 
 Same information as Folder Migrate-BaleenWhale_Input but for different mtDNA genes and species 
 employed for the comparison of temporal trends of different mtDNA genes.
 
 
-### - Stariway-BaleenWhales_Input
+### - 6.Stariway-BaleenWhales_Input
 
 For each of the baleen whale species, the files named "blueprint" are used as both the input and the configuration file for running the "STAIRWAY PLOT v2". The files employed for the plot with minimum coverage of 2x and 10x are included. 
 
