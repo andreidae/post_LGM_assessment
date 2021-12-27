@@ -25,9 +25,9 @@ Line 2. Number of base pairs in the mtDNA sequences
 
 Line 3. Number of sequences for population 1
 
-Line 4-?. MtDNA sequences per sample individual
+Line 4 - n line. MtDNA sequences per sample individual
 
-Line ?. Number of sequences for population 2
+Line n+1. Number of sequences for population 2
 	
 	
 ##### 2. Parfile
